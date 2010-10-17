@@ -14,6 +14,7 @@ html {
 body {
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.8)), color-stop(1, transparent));
 	background-repeat: repeat-x;
+	margin-bottom: 60px;
 	padding-top: 110px;
 }
 
@@ -25,12 +26,21 @@ em {
 	font-style: normal;
 }
 
-.upper {
-	text-transform: uppercase;
+li {
+	list-style: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
 }
 
 .shadowed {
 	text-shadow: 3px 3px 0 #000;
+}
+
+.upper {
+	text-transform: uppercase;
 }
 
 #container {
@@ -64,14 +74,40 @@ em {
 	padding: 20px;
 }
 
-#author {
+footer {
+	height: 20px;
+}
+
+#author, #permalink {
+	display: inline-block;
 	float: left;
+	width: 440px;
+}
+
+#author {
 	margin-left: 20px;
 }
 
 #permalink {
-	float: right;
 	margin-right: 20px;
+	text-align: right;
+}
+
+#moar {
+	margin-top: 40px;
+	text-align: center;
+}
+
+#moar li {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+#moar a {
+	color: #222;
+	font-size: 46px;
+	text-decoration: none;
+	-webkit-transition: color 0.25s ease-in-out;
 }
 
 #fork {

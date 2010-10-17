@@ -6,5 +6,16 @@ html
     link(href='/stylesheets/enterprise.css', rel='stylesheet')
   body
     #container!=body
+      ul#moar
+        li
+          a(href='http://enterprise-html.com/')='HTML'
+        li
+          a(href='http://enterprise-css.com/')='CSS'
+        li
+          a(href='http://enterprise-js.com/')='JS'
+    a#fork(href="http://github.com/bentruyman/enterprise-js")
+      img(src="http://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png", alt="Fork me on GitHub", height="149", width="149")
+    style
+      | a, em, .special, #moar a:hover { color: ##{color}; }
     script
       | var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-19149649-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
