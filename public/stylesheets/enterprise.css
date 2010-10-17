@@ -94,13 +94,15 @@ footer {
 }
 
 #moar {
-	margin-top: 40px;
+	margin: 40px 0;
 	text-align: center;
 }
 
 #moar li {
 	display: inline-block;
 	padding: 0 5px;
+	text-align: center;
+	width: 100px;
 }
 
 #moar a {
@@ -108,6 +110,10 @@ footer {
 	font-size: 46px;
 	text-decoration: none;
 	-webkit-transition: color 0.25s ease-in-out;
+}
+
+#contribute {
+	text-align: center;
 }
 
 #fork {
