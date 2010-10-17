@@ -21,7 +21,11 @@ var tips = require('./tips');
 
 // Make 'em sexy
 tips.forEach(function (tip) {
-	tip.example = hl(tip.example.join('\n'));
+	// Wrap it in script tags to trigger JavaScript highlighting...sigh
+	tip.example = hl('<script>\n' + tip.example.join('\n') + '\n</script>');
+	// Unwrap (hax)
+	tip.example = tip.example.replace('<span class="tag">&lt;<span class="keyword">script</span>&gt;</span><span class="javascript">', '');
+	tip.example = tip.example.replace('</span><span class="tag">&lt;/<span class="keyword">script</span>&gt;</span>', '');
 });
 
 // Routes

@@ -85,7 +85,11 @@ em {
 	opacity: 0.75;
 }
 
+code .built_in { color: #ae81ff; }
 code .comment { color: #999; }
-code .keyword { color: #86c20e; }
+code .function .title { color: #86c20e; }
+code .function .params { color: #fd971f; }
+code .keyword { color: #44a0ef; }
+code .literal { color: #ae81ff; }
 code .number { color: #ae81ff; }
 code .string { color: #c6bb54; }
