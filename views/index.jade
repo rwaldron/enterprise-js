@@ -1,0 +1,14 @@
+#prefix.shadowed.upper
+  a.special(href="/")="Enterprise JavaScript"
+  =" Is:"
+#message.shadowed.upper!=tip.message
+code#example
+  pre!=tip.example
+p#author="Submitted by: "
+  a.special(href="http://twitter.com/#/" + tip.author)=tip.author 
+p#permalink
+  a(href="/" + index)="Permalink"
+a#fork(href="http://github.com/bentruyman/enterprise-js")
+  img(src="http://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png", alt="Fork me on GitHub", height="149", width="149")
+style
+  | .special, em { color: ##{color}; }
