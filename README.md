@@ -17,7 +17,7 @@ at gathering all of that knowledge and to share it with the world.
 
 ## Adding Your Own Tips
 
-Add your own tips to `tip.js` by appending to the `tips` array:
+Add your own tips to `tips.js` by appending to the `tips` array:
 
     tips.push({
     	author: 'your_twitter_handle',
