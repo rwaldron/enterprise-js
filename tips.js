@@ -112,4 +112,29 @@ tips.push({
   ]
 });
 
+tips.push({
+  author: 'karbassi',
+  message: "Use tabs and spaces to indent your code.",
+  example: [
+    'var x =    3;', 
+    'var y =    4;', 
+    'var z =    0;',
+    '   z = x+y;'
+  ]
+});
+
+tips.push({
+  author: 'karbassi',
+  message: "Use one space for all your indentation.",
+  example: [
+     'function(x,y){'
+     ' if(x=3)'
+     '  if(y!=3)'
+     '   if(y+x>3)'
+     '    return true;'
+     '}'
+  ]
+});
+
+
 module.exports = tips;
