@@ -80,5 +80,16 @@ tips.push({
   ]
 });
 
+tips.push({
+  author: 'rwaldron',
+  message: "Declaring your functions globally ensures they are accessible throughout your entire script. This ensures they always take precedence!",
+  example: [
+    'function postMessage(message) {', 
+    ' $.post("/helloworld.php", "message="+message)', 
+    '};'
+  ]
+});
+
+
 
 module.exports = tips;
