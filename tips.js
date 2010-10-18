@@ -139,7 +139,7 @@ tips.push({
     '    } ', 
     '    , setSettings: function () { ', 
     '    } ', 
-    ' }'
+    ' }',
     '};'
   ]
 });
