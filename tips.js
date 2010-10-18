@@ -102,11 +102,11 @@ tips.push({
   author: 'karbassi',
   message: "Use one space for all your indentation.",
   example: [
-     'function(x,y){'
-     ' if(x=3)'
-     '  if(y!=3)'
-     '   if(y+x>3)'
-     '    return true;'
+     'function(x,y){',
+     ' if(x=3)',
+     '  if(y!=3)',
+     '   if(y+x>3)',
+     '    return true;',
      '}'
   ]
 });
