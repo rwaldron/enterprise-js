@@ -71,44 +71,12 @@ tips.push({
   author: 'rwaldron',
   message: "Make sure you explicitly declare EVERY VARIABLE on it's own line, that way your team will know they are all variables",
   example: [
-    'var li = "<li></li>";', 
-    'var div = "<div>"+li+"</div>";', 
-    'var num1 = 4;', 
-    'var num2 = 5;', 
-    'var total = num1 + num2;', 
+    'var li = "<li></li>";',
+    'var div = "<div>"+li+"</div>";',
+    'var num1 = 4;',
+    'var num2 = 5;',
+    'var total = num1 + num2;',
     'var rounded = Math.round(total);'
-  ]
-});
-
-tips.push({
-  author: 'rwaldron',
-  message: "Declaring your functions globally ensures they are <em>accessible</em> throughout your entire script. This ensures they always take precedence!",
-  example: [
-    'function postMessage(message) {', 
-    ' $.post("/helloworld.php", "message="+message)', 
-    '};'
-  ]
-});
-
-tips.push({
-  author: 'rwaldron',
-  message: "Put your commas at the beginning of the line, because thats what they do in someother Enterprise languages",
-  example: [
-    'var CommaBomb = {', 
-    ' defaults: "" ', 
-    ' , options: "" ', 
-    ' , settings: "" ', 
-    ' , methods: { ', 
-    '    getOptions: function () { ', 
-    '    } ', 
-    '    , setOptions: function () { ', 
-    '    } ', 
-    '    , getSettings: function () { ', 
-    '    } ', 
-    '    , setSettings: function () { ', 
-    '    } ', 
-    ' }',
-    '};'
   ]
 });
 
