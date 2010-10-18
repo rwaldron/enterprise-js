@@ -68,7 +68,7 @@ tips.push({
 
 tips.push({
   author: 'rwaldron',
-  message: "Make sure you explicitly declare EVERY VARIABLE on it's own line, that way your team will know they are all variables",
+  message: "Make sure you explicitly declare <em>EVERY VARIABLE</em> on it's own line, that way your team will know they are all variables",
   example: [
     'var li = "<li></li>";',
     'var div = "<div>"+li+"</div>";',
@@ -81,7 +81,7 @@ tips.push({
 
 tips.push({
   author: 'paulca',
-  message: "Use HTML5 to link links to functions that link to links.",
+  message: "Use <em>HTML5</em> to link links to functions that link to links.",
   example: [
     '<a href="Javascript:openLink(\'homepage.aspx\',%20\'1\');">Arnotts</a>'
   ]
@@ -89,7 +89,7 @@ tips.push({
 
 tips.push({
   author: 'karbassi',
-  message: "Use tabs and spaces to indent your code.",
+  message: "Use <em>tabs and spaces</em> to indent your code.",
   example: [
     'var x =    3;', 
     'var y =    4;', 
@@ -100,7 +100,7 @@ tips.push({
 
 tips.push({
   author: 'karbassi',
-  message: "Use one space for all your indentation.",
+  message: "Use one space for <em>all</em> your indentation.",
   example: [
      'function(x,y){',
      ' if(x=3)',
@@ -113,7 +113,7 @@ tips.push({
 
 tips.push({
   author: 'rwaldron',
-  message: "Declaring your functions globally ensures they are accessible throughout your entire script. This ensures they always take precedence!",
+  message: "Declaring your functions <em>globally</em> ensures they are accessible throughout your entire script. This ensures they always take precedence!",
   example: [
     'function postMessage(message) {', 
     ' $.post("/helloworld.php", "message="+message)', 
@@ -124,7 +124,7 @@ tips.push({
 
 tips.push({
   author: 'rwaldron',
-  message: "Put your commas at the beginning of the line, because thats what they do in someother Enterprise languages",
+  message: "Put your commas at the beginning of the line, because thats what they do in someother <em>Enterprise</em> languages",
   example: [
     'var CommaBomb = {', 
     ' defaults: "" ', 
@@ -141,6 +141,26 @@ tips.push({
     '    } ', 
     ' }',
     '};'
+  ]
+});
+
+tips.push({
+  author: 'ehynds',
+  message: "Declare a wrapper function for <em>everything</em>",
+  example: [
+    'function createInformationWindow(message){',
+    '   alert(message);',
+    '}',
+    '',
+    'function incrementVariable(variable,byHowMany){',
+    '   return variable + byHowMany;',
+    '}',
+    '',
+    'function alertIfOnePlusTwoEqualsThree(){',
+    '   if( incrementVariable(1, 2) === 3 ){',
+    '      createInformationWindow("LOLWAT?");',
+    '   }',
+    '}'
   ]
 });
 
