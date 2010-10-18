@@ -83,7 +83,7 @@ tips.push({
   author: 'paulca',
   message: "Use <em>HTML5</em> to link links to functions that link to links.",
   example: [
-    '<a href="Javascript:openLink(\'homepage.aspx\',%20\'1\');">Arnotts</a>'
+    '<a href="Javascript:openLink(\'homepage.aspx\',%20\'1\');">Homepage</a>'
   ]
 });
 
