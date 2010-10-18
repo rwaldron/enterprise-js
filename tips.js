@@ -66,7 +66,6 @@ tips.push({
   ]
 });
 
-
 tips.push({
   author: 'rwaldron',
   message: "Make sure you explicitly declare EVERY VARIABLE on it's own line, that way your team will know they are all variables",
@@ -77,6 +76,14 @@ tips.push({
     'var num2 = 5;',
     'var total = num1 + num2;',
     'var rounded = Math.round(total);'
+  ]
+});
+
+tips.push({
+  author: 'paulca',
+  message: "Use HTML5 to link links to functions that link to links.",
+  example: [
+    '<a href="Javascript:openLink(\'homepage.aspx\',%20\'1\');">Arnotts</a>'
   ]
 });
 
