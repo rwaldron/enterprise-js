@@ -174,4 +174,19 @@ tips.push({
   ]
 });
 
+
+tips.push({
+  author: 'rwaldron',
+  message: "Wrap open source libraries in descriptive <em>'in-house namespaces'</em>.",
+  example: [
+    'var InitechCoreJQuery = jQuery',
+    '',
+    'InitechCoreJQuery( function () {', 
+    ' InitechCoreJQuery(document).click(function () {', 
+    '  //... ',
+    ' })', 
+    '})'
+  ]
+});
+
 module.exports = tips;
