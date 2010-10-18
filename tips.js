@@ -90,4 +90,26 @@ tips.push({
   ]
 });
 
+tips.push({
+  author: 'rwaldron',
+  message: "Put your commas at the beginning of the line, because thats what they do in someother Enterprise languages",
+  example: [
+    'var CommaBomb = {', 
+    ' defaults: "" ', 
+    ' , options: "" ', 
+    ' , settings: "" ', 
+    ' , methods: { ', 
+    '    getOptions: function () { ', 
+    '    } ', 
+    '    , setOptions: function () { ', 
+    '    } ', 
+    '    , getSettings: function () { ', 
+    '    } ', 
+    '    , setSettings: function () { ', 
+    '    } ', 
+    ' }',
+    '};'
+  ]
+});
+
 module.exports = tips;
