@@ -58,4 +58,12 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'bentruyman',
+	message: 'Creating <em>Really</em> Random Numbers',
+	example: [
+		'var reallyRandom = Math.pow(Math.random(), Math.random());'
+	]
+});
+
 module.exports = tips;
