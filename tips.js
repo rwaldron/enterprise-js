@@ -164,4 +164,14 @@ tips.push({
   ]
 });
 
+tips.push({
+  author: 'mrgnrdrck',
+  message: "Use bitwise operators for array bounds checks",
+  example: [
+    'if (index !== +index >>> 0 || index >= elements.length){',
+    '   alert("fail!")',
+    '}'
+  ]
+});
+
 module.exports = tips;
