@@ -145,8 +145,8 @@ tips.push({
 });
 
 tips.push({
-  author: 'ehynds',
-  message: "Declare a wrapper function for <em>everything</em>",
+  author: 'erichynds',
+  message: "Declare a wrapper function for <em>everything</em> for ultimate code reuse",
   example: [
     'function createInformationWindow(message){',
     '   alert(message);',
