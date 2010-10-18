@@ -111,5 +111,25 @@ tips.push({
   ]
 });
 
+tips.push({
+  author: 'ehynds',
+  message: "Declare a wrapper function for <em>everything</em>",
+  example: [
+    'function createInformationWindow(message){',
+    '   alert(msg);',
+    '}',
+    '',
+    'function incrementValue(variable,byHowMany){',
+    '   return value + byHowMany;',
+    '}',
+    '',
+    'function alertIfOnePlusTwoEqualsThree(){',
+    '   if( incrementValueByOne(1, 2) === 3 ){',
+    '      createInformationWindow("LOLWAT?");',
+    '   }',
+    '}'
+  ]
+});
+
 
 module.exports = tips;
