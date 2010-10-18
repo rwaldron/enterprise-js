@@ -2,8 +2,9 @@
   a.special(href="/")="Enterprise JavaScript"
   =" Is:"
 #message.shadowed.upper!=tip.message
-code#example
-  pre!=tip.example
+- if (tip.example)
+  code#example
+    pre!=tip.example
 footer
   p#author="Submitted by: "
     a.special(href="http://twitter.com/#/" + tip.author)=tip.author 
