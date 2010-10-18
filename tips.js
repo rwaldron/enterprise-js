@@ -16,7 +16,7 @@ tips.push({
 
 tips.push({
 	author: 'bentruyman',
-	message: 'Extrenely Descriptive <em>Self-Documenting</em> Variable Names',
+	message: 'Extremely Descriptive <em>Self-Documenting</em> Variable Names',
 	example: [
 		'function CatObjectThatInheritsAnimal() {',
 		'	this.yellowFurColorString = "yellow";',
