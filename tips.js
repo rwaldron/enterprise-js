@@ -45,7 +45,7 @@ tips.push({
 
 tips.push({
 	author: 'bentruyman',
-	message: 'Ensuring Lines Are Terminated With Multiple Semicolons So the JavaSript Parser Really Knows when a Line Is Ending',
+	message: 'Ensuring Lines Are Terminated With Multiple Semicolons So the JavaSript Parser <em>Really Knows</em> when a Line Is Ending',
 	example: [
 		'var helloWorld = function (message) {',
 		'	if (!message) {',
